@@ -68,7 +68,7 @@ ctm config server::unmanaged <server> <host>
 For example:
 
 ```ruby 
-ctm config server::unmanaged "smprod" "ip-xx-xx-xxx-region"
+ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute.internal"
 ```
 
 
