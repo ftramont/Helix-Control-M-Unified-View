@@ -8,8 +8,7 @@ Control-M CLI commands to implement the Helix Control-M Unified View.
 Please refer to the following technote for a comprehensive overview of the Helix Control-M Unified View, 
 including its value, use cases, and a step-by-step guide on implementing it through the Control-M and Helix Control-M web interfaces.
 
-This xxx complements the technote description by including the Control-M and Helix Control-M CLI commands whereas 
-they can be used as alternatives to the web interface. 
+Below you'll find the Control-M and Helix Control-M CLI commands whereas they can be used as alternatives to the web interface. 
 
 For more details on using the CLI, please refer to the following documentation: Control-M Automation API Guidelines.
 
