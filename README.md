@@ -1,9 +1,9 @@
 # Helix Control-M Unified View
 
-### Short description:
+### Short description
 Control-M CLI commands to implement the Helix Control-M Unified View.
  
-### Detailed description:
+### Detailed description
 
 Please refer to the following technote for a comprehensive overview of the Helix Control-M Unified View, 
 including its value, use cases, and a step-by-step guide on implementing it through the Control-M and Helix Control-M web interfaces.
@@ -27,7 +27,7 @@ The following steps outline the process for achieving the unified view.
 
 CLI instructions will be provided for steps 2 and 3, specifically for Control-M/Server running on Linux. 
 
-### 2. Disconnect a server from self-hosted Control-M/EM.
+### 2. Disconnect a server from self-hosted Control-M/EM
 
 From the self-hosted Control-M/Server command line use _ctm_ utility to perform this instruction. 
 For each server to be disconnected, follow these steps.
