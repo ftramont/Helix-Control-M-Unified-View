@@ -10,7 +10,7 @@ including its value, use cases, and a step-by-step guide on implementing it thro
 
 Below you'll find the Control-M and Helix Control-M CLI commands whereas they can be used as alternatives to the web interface. 
 
-For more details on using the CLI, please refer to the following documentation: [Control-M Automation API Guidelines] (https://documents.bmc.com/supportu/API/Monthly/en-US/Documentation/Automation_API_Guidelines.htm?).
+For more details on using the CLI, please refer to the following documentation: [Control-M Automation API Guidelines]([url](https://documents.bmc.com/supportu/API/Monthly/en-US/Documentation/Automation_API_Guidelines.htm?)) (https://documents.bmc.com/supportu/API/Monthly/en-US/Documentation/Automation_API_Guidelines.htm?).
 
 #### Pre requisites
 
