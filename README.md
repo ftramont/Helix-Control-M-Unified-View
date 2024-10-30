@@ -87,3 +87,10 @@ For example:
 ```ruby
 em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.region.compute.internal" -cmd stop
 ```
+
+### 3. Connect the server to Helix Control-M/EM
+
+The first step in this section is adding the self-hosted server to Helix Control-M.
+This step can only be accomplshed through the web interface. Please, refer to the step 3.a in the technote for more details.
+
+
