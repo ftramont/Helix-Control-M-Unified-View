@@ -78,5 +78,12 @@ Stopping the gateway halts the communication between the server and its current 
 Use the ccmcli utility from the self-hosted Control-M command line to perform this instruction. 
 For more details on this utility, please refer to the documentation: [ccmcli](https://documents.bmc.com/supportu/9.0.21.300/en-US/Documentation/Utilities/ccmcli.htm?).
 
+```ruby 
+em ccmcli - ccmcli -u <Username> -p <Password> -t Gateway -n <Component_Name> -h <Component_Host> -cmd stop
+```
 
+For example:
 
+```ruby
+em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.region.compute.internal" -cmd stop
+```
