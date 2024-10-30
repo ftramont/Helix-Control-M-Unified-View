@@ -25,7 +25,7 @@ The following steps outline the process for achieving the unified view.
 * #### 3. Connect the server to Helix Control-M/EM.  
 * #### 4. Repeat for each server.  
 
-We will provide CLI instructions for steps 2 and 3, specifically for Control-M/Server running on Linux. 
+CLI instructions will be provided for steps 2 and 3, specifically for Control-M/Server running on Linux. 
 
 ### 2. Disconnect a server from self-hosted Control-M/EM.
 
