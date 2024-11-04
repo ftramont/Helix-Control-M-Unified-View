@@ -93,7 +93,7 @@ em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.re
 The first step in this section is adding the self-hosted server to Helix Control-M.
 This step can only be accomplished through the web interface. Please, refer to the step 3.a in the [technote](tbd) for more details.
 
-#### c.	Register the server
+#### b.	Register the server
 Registering establishes a connection between the self-hosted Control-M/Server and Helix Control-M/EM.
 
 Use the `ctm_menu` utility from a self-hosted Control-M/Server account line to perform this instruction. 
@@ -109,7 +109,7 @@ Enter the token obtained with the previous step
 
 **Note:** Ensure that all servers have been successfully registered before proceeding with the next step.
 
-c.	Resume the server
+#### c.	Resume the server
 Resuming changes the server Actual State to Up and allows to start job executions.
 
 ```ruby 
