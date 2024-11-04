@@ -75,7 +75,7 @@ ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute.internal"
 #### d. Stop the gateway
 Stopping the gateway halts the communication between the server and its current Control-M/EM.
 
-Use the ccmcli utility from the self-hosted Control-M command line to perform this instruction. 
+Use the `ccmcli` utility from the self-hosted Control-M command line to perform this instruction. 
 For more details on this utility, please refer to the documentation: [ccmcli](https://documents.bmc.com/supportu/9.0.21.300/en-US/Documentation/Utilities/ccmcli.htm?).
 
 ```ruby 
@@ -93,4 +93,26 @@ em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.re
 The first step in this section is adding the self-hosted server to Helix Control-M.
 This step can only be accomplished through the web interface. Please, refer to the step 3.a in the [technote](tbd) for more details.
 
+#### c.	Register the server
+Registering establishes a connection between the self-hosted Control-M/Server and Helix Control-M/EM.
+
+Use the `ctm_menu` utility from a self-hosted Control-M/Server account line to perform this instruction. 
+For more details on this utility, please refer to the documentation: [ctm_menu](https://documents.bmc.com/supportu/9.0.21.300/en-US/Documentation/Utilities/ctm_menu.htm)).
+
+
+```ruby
+ctm_menu <enter> 
+1 - CONTROL-M Manager <enter>
+11 - Register Control-M/Server in Helix Control-M/EM <enter>
+Enter the token obtained with the previous step
+```
+
+**Note:** Ensure that all servers have been successfully registered before proceeding with the next step.
+
+c.	Resume the server
+Resuming changes the server Actual State to Up and allows to start job executions.
+
+```ruby 
+ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute.internal"
+```
 
