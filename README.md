@@ -22,8 +22,8 @@ The following steps outline the process for achieving the unified view.
 
 * #### 1. Migrate EM data from self-hosted to Helix Control-M
 * #### 2. Disconnect a server from self-hosted Control-M/EM
-* #### 3. Connect the server to Helix Control-M/EM
-* #### 4. Repeat for each server
+* #### 3. Connect a server to Helix Control-M/EM
+* #### 4. Repeat for all servers
 
 CLI instructions will be provided for steps 2 and 3, specifically for Control-M/Server running on Linux. 
 
