@@ -44,7 +44,7 @@ For example:
 ```ruby 
 ctm config server::pause "smprod"
 ```
-**Note:** All servers must be paused before proceeding with the next step. If only one server is still up while the others are paused, events raised by that server will not be captured by the paused servers.
+**Note:** All servers must be paused before proceeding with the next step. If you pause only one server while the others are still processing, conditions (events) raised by the active servers will not be received by the paused server and will get lost.
 
 #### b. Disable the server
 Disabling removes the ability to monitor and manage the server and its components.
