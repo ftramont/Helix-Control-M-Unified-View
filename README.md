@@ -32,8 +32,8 @@ CLI instructions will be provided for steps 2 and 3, specifically for Control-M/
 From the self-hosted Control-M command line use `ctm` utility to perform this instruction. 
 For each server to be disconnected, follow these steps.
 
-#### a. Pause the server
-Pausing prevents the execution of new jobs until you resume the server.
+#### a. Pause all servera
+Pausing prevents the execution of new jobs until you resume the servera.
 
 ```ruby 
 ctm config server::pause <server>
@@ -44,9 +44,9 @@ For example:
 ```ruby 
 ctm config server::pause "smprod"
 ```
-**Note:** All servers must be paused before proceeding with the next step. If you pause only one server while the others are still processing, conditions (events) raised by the active servers will not be received by the paused server and will get lost.
+**Note:** Before proceeding with the next individual server steps, ensure to pause all servers. If you pause only one server while the others are still processing, it will miss events raised from the other servers, leading to a loss of synchronization and coordination.
 
-#### b. Disable the server
+#### b. Disable a server
 Disabling removes the ability to monitor and manage the server and its components.
 
 ```ruby 
