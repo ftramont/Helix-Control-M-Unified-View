@@ -89,8 +89,8 @@ em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.re
 
 ### 3. Connect a server to Helix Control-M/EM
 
-The first step in this section is adding the self-hosted server to Helix Control-M.
-This step can only be accomplished through the web interface. Please, refer to the step 3.a in the [technote](tbd) for more details.
+The first step in this section is to add the self-hosted server to Helix Control-M. 
+This step must be completed using the web interface. For more details, please refer to Step 3a in the [technote](tbd) for more details.
 
 #### b.	Register the server
 Registering establishes a connection between the self-hosted Control-M/Server and Helix Control-M/EM.
