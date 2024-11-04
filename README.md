@@ -111,6 +111,6 @@ Enter the token obtained with the previous step
 Resuming changes the server Actual State to Up and allows to start job executions.
 
 ```ruby 
-ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute.internal"
+ctm config server::resume "smprod"
 ```
 
