@@ -29,8 +29,7 @@ CLI instructions will be provided for steps 2 and 3, specifically for Control-M/
 
 ### 2. Disconnect a server from self-hosted Control-M/EM
 
-From the self-hosted Control-M command line use `ctm` utility to perform this instruction. 
-For each server to be disconnected, follow these steps.
+From the self-hosted Control-M command line use `ctm` utility to perform all the steps, except step 2.d.
 
 #### a. Pause the server
 Pausing prevents the execution of new jobs until you resume the server.
