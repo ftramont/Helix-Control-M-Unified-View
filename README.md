@@ -114,3 +114,6 @@ Resuming changes the server Actual State to Up and allows to start job execution
 ctm config server::resume "smprod"
 ```
 
+### 4. Repeat for all servers
+
+You'll complete the process once all steps have been executed for each server. At that point, the self-hosted Control-M/EM will be ready for decommissioning. 
