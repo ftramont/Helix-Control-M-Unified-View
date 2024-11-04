@@ -95,7 +95,7 @@ This step must be completed using the web interface. For more details, please re
 #### b.	Register the server
 Registering establishes a connection between the self-hosted Control-M/Server and Helix Control-M/EM.
 
-Use the `ctm_menu` utility from a self-hosted Control-M/Server account line to perform this instruction. 
+Use the `ctm_menu` utility from a self-hosted Control-M/Server account to perform this instruction. 
 For more details on this utility, please refer to the documentation: [ctm_menu](https://documents.bmc.com/supportu/9.0.21.300/en-US/Documentation/Utilities/ctm_menu.htm)).
 
 ```
