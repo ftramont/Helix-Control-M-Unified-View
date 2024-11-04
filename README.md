@@ -32,7 +32,7 @@ CLI instructions will be provided for steps 2 and 3, specifically for Control-M/
 From the self-hosted Control-M command line use `ctm` utility to perform this instruction. 
 For each server to be disconnected, follow these steps.
 
-#### a. Pause all servera
+#### a. Pause all servers
 Pausing prevents the execution of new jobs until you resume the servera.
 
 ```ruby 
