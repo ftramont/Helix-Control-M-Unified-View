@@ -32,8 +32,8 @@ CLI instructions will be provided for steps 2 and 3, specifically for Control-M/
 From the self-hosted Control-M command line use `ctm` utility to perform this instruction. 
 For each server to be disconnected, follow these steps.
 
-#### a. Pause all servers
-Pausing prevents the execution of new jobs until you resume the servera.
+#### a. Pause the server
+Pausing prevents the execution of new jobs until you resume the server.
 
 ```ruby 
 ctm config server::pause <server>
@@ -44,9 +44,9 @@ For example:
 ```ruby 
 ctm config server::pause "smprod"
 ```
-**Note:** Before proceeding with the next individual server steps, ensure to pause all servers. If you pause only one server while the others are still processing, it will miss events raised from the other servers, leading to a loss of synchronization and coordination.
+**Note:** Ensure to pause all servers before proceeding with the next individual server steps. If you pause only one server while the others are still processing, it will miss events raised from the other servers, leading to a loss of synchronization and coordination.
 
-#### b. Disable a server
+#### b. Disable the server
 Disabling removes the ability to monitor and manage the server and its components.
 
 ```ruby 
@@ -88,9 +88,9 @@ For example:
 em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.region.compute.internal" -cmd stop
 ```
 
-### 3. Connect the server to Helix Control-M/EM
+### 3. Connect a server to Helix Control-M/EM
 
 The first step in this section is adding the self-hosted server to Helix Control-M.
-This step can only be accomplshed through the web interface. Please, refer to the step 3.a in the technote for more details.
+This step can only be accomplished through the web interface. Please, refer to the step 3.a in the technote for more details.
 
 
