@@ -98,10 +98,10 @@ Registering establishes a connection between the self-hosted Control-M/Server an
 Use the `ctm_menu` utility from a self-hosted Control-M/Server account line to perform this instruction. 
 For more details on this utility, please refer to the documentation: [ctm_menu](https://documents.bmc.com/supportu/9.0.21.300/en-US/Documentation/Utilities/ctm_menu.htm)).
 
-`ctm_menu <enter> 
-1 - CONTROL-M Manager <enter>
-11 - Register Control-M/Server in Helix Control-M/EM <enter>
-Enter the token obtained with the previous step`
+`ctm_menu <enter>`
+`1 - CONTROL-M Manager <enter>`
+`11 - Register Control-M/Server in Helix Control-M/EM <enter>`
+`Enter the token obtained with the previous step`
 
 **Note:** Ensure that all servers have been successfully registered before proceeding with the next step.
 
