@@ -67,7 +67,7 @@ ctm config server::unmanaged <server> <host>
 For example:
 
 ```ruby 
-ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute.internal"
+ctm config server::unmanaged "smprod" "ip-xx-xx-xx-xx.region.compute"
 ```
 
 #### d. Stop the gateway
@@ -83,7 +83,7 @@ em ccmcli -u <Username> -p <Password> -t Gateway -n <Component_Name> -h <Compone
 For example:
 
 ```ruby
-em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.region.compute.internal" -cmd stop
+em ccmcli -u "emuser" -p "********" -t Gateway -n "smprod" -h "ip-xx-xx-xx-xx.region.compute" -cmd stop
 ```
 
 ### 3. Connect a server to Helix Control-M/EM
